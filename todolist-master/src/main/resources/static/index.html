@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciador de Tarefas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Gerenciador de Tarefas</h1>
+
+    <h2>Cadastrar Usuário</h2>
+    <input type="text" id="nomeUsuario" placeholder="Nome">
+    <input type="email" id="emailUsuario" placeholder="Email">
+    <button onclick="salvarUsuario()">Salvar Usuário</button>
+
+    <h2>Cadastrar Tarefa</h2>
+    <input type="text" id="descricaoTarefa" placeholder="Descrição">
+    <input type="text" id="setorTarefa" placeholder="Setor">
+    <select id="usuarioTarefa"></select>
+    <button onclick="salvarTarefa()">Salvar Tarefa</button>
+
+    <h2>Lista de Tarefas</h2>
+    <ul id="listaTarefas"></ul>
+
+    <script src="script.js"></script>
+</body>
+</html>
