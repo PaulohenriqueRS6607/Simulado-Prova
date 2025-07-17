@@ -41,13 +41,7 @@ Este projeto é um gerenciador de tarefas desenvolvido em Java com Spring Boot, 
 2. **Configure o banco de dados MySQL:**
    - Crie um banco chamado `prova`.
    - Ajuste usuário e senha no arquivo `src/main/resources/application.properties` se necessário.
-3. **Execute o projeto:**
-   - Via terminal:
-     ```bash
-     ./mvnw spring-boot:run
-     ```
-   - Ou importe em sua IDE e rode a classe `ListApplication`.
-4. **Acesse o front-end:**
+3. **Acesse o front-end:**
    - Abra o arquivo `src/main/resources/static/index.html` no navegador.
 
 ---
